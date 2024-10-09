@@ -1,0 +1,9 @@
+as alterações necessarias foram as seguintes:
+
+1- foi preciso criar um array, que sera a queue
+
+2- head e tail tornaram-se inteiros, onde o seu valor é o index do array que possui as posições da head e do tail
+
+3-foi preciso adicionar uma verificação para caso o array tenha atingido o tamanho maximo, o mesmo seja substituido por outro array com os mesmos elementos e mais espaço
+
+4-a queue passou de bigO de 1 para bigO de N (tamanho do array)
