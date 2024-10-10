@@ -21,8 +21,11 @@ public class CodifyCircularArray {
         if (KEY_QUEUE.isEmpty()) {
             return "Error: No keys added";
         }
-        for (int i = 0; i < text.length(); i++) {
-            char c = text.charAt(i);
+
+        String[] c = text.split("");
+
+        for (int i = 0; i < c.length(); i++) {
+            
             if (c == ' '){
                 encodedText.append(" ");
                 continue;
